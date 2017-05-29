@@ -3,6 +3,5 @@
 package examples
 
 fun foo() {
-
 }
 
