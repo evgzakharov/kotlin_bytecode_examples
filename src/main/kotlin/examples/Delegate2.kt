@@ -4,7 +4,7 @@ import kotlin.properties.ReadWriteProperty
 import kotlin.reflect.KProperty
 
 class DeleteExample {
-    val name: String by mapOf("name" to "")
+    val name: String by Delegate()
 }
 
 class Delegate : ReadWriteProperty<DeleteExample, String> {
