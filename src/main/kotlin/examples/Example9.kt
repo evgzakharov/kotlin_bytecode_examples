@@ -1,3 +1,8 @@
 package examples
 
-fun <T> runLambda(x: ()-> T): T = x()
+suspend fun asyncFun(x: Int): Int {
+    return x * 3
+}
+
+
+
